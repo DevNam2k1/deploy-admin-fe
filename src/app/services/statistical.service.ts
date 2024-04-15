@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class StatisticalService {
 
-  url = 'http://deploy-backend-production-4592.up.railway.app/statistical/api';
+  url = 'https://deploy-backend-production-4592.up.railway.app/statistical/api';
 
   constructor(private httpClient: HttpClient) { }
 

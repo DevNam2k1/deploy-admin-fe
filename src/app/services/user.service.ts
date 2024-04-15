@@ -7,8 +7,8 @@ import { User } from '../common/User';
   providedIn: 'root'
 })
 export class UserService {
-  url = 'http://deploy-backend-production-4592.up.railway.app/api/users';
-  urlAuthentication = 'http://deploy-backend-production-4592.up.railway.app/api';
+  url = 'https://deploy-backend-production-4592.up.railway.app/api/users';
+  urlAuthentication = 'https://deploy-backend-production-4592.up.railway.app/api';
   constructor(private httpClient: HttpClient) { }
 
   getAll() {

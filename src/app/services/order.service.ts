@@ -6,9 +6,9 @@ import { Order } from '../common/Order';
   providedIn: 'root'
 })
 export class OrderService {
-  urlOD = 'http://deploy-backend-production-4592.up.railway.app/api/order-detail';
+  urlOD = 'https://deploy-backend-production-4592.up.railway.app/api/order-detail';
 
-  urlO = 'http://deploy-backend-production-4592.up.railway.app/api/orders';
+  urlO = 'https://deploy-backend-production-4592.up.railway.app/api/orders';
 
   constructor(private httpClient: HttpClient) { }
 

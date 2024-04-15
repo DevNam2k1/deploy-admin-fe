@@ -6,7 +6,7 @@ import { Category } from '../common/Category';
   providedIn: 'root'
 })
 export class CategoryService {
-  url = 'http://deploy-backend-production-4592.up.railway.app/api/categories';
+  url = 'https://deploy-backend-production-4592.up.railway.app/api/categories';
 
   constructor(private httpClient: HttpClient) { }
 
